@@ -1,0 +1,58 @@
+<!--Navbar-->
+<div class="jumbotron"> 
+
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+         
+        
+         
+         
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link" routerLink="/htmltable">Table Presentation</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" routerLink="/chart">Chart Presentation</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/iframe">Iframe Presentation</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Log Out</a>
+           </li>
+ 
+         </ul>
+       </nav>
+   </div>
+   <div class="block">
+    <h2>HTML Table Representation</h2>
+  </div>
+   <div class="container">
+     <p>"Here I have imported data of "employee.json" file and represented in table format"</p>
+   </div>
+   
+<div class="tableclass" style="position: relative;"> 
+  
+
+    <table *ngIf="employee">
+        
+        <tr>
+            <th>ID</th>
+                <th>First Name</th>
+                    <th>Last Name</th>
+                        <th>Salary</th>
+                            <th>Date of Birth</th>
+        </tr>
+
+        
+        <tr *ngFor="let emp of employee">
+            <td>{{emp.id}}</td>
+                <td>{{emp.firstName}}</td>
+                    <td>{{emp.lastName}}</td>
+                        <td>{{emp.salary}}</td>
+                            <td>{{emp.dob}}</td>
+        </tr>
+    </table> 
+</div>
+
+   

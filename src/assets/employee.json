@@ -1,0 +1,38 @@
+[
+	{
+		"id": 101,
+		"firstName": "Anand",
+		"lastName": "Naik",
+		"salary": 10000,
+		"dob": "02/23/1988"
+	},
+	{
+		"id": 102,
+		"firstName": "Anita",
+		"lastName": "Sharma",
+		"salary": 20000,
+		"dob": "04/23/1988"
+	},
+	{
+		"id": 103,
+		"firstName": "Bhagya",
+		"lastName": "Nayak",
+		"salary": 30000,
+		"dob": "02/23/1980"
+	},
+	{
+		"id": 104,
+		"firstName": "Chetana",
+		"lastName": "Agarwal",
+		"salary": 40000,
+		"dob": "02/23/1991"
+	},
+	{
+		"id": 101,
+		"firstName": "Daya",
+		"lastName": "Patil",
+		"salary": 50000,
+		"dob": "02/20/1987"
+	}
+]
+	

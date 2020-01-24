@@ -1,0 +1,45 @@
+.nav-item {
+    display: inline;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #f6f9fa;
+}
+.jumbotron {
+    background-color: #000;
+}
+
+.nav-link a:hover {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+.col-sm-4 iframe{
+	
+	border: #f6f9fa;
+	border-style: double;
+}
+
+.col-sm-4 {
+	padding-left: 120px;
+}
